@@ -40,5 +40,3 @@ ggsave("SciFiAnimePlot.png")
 #                      breaks = seq(0, 10, 1)) +
 #   scale_x_discrete("Anime Start Date")
 # 
-
-  
