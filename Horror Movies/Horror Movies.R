@@ -37,7 +37,7 @@ plot %>%
   theme(legend.position = "none") +
   
 #Set labels
-  labs(title = "Horror Film Ratings by Budget (2012-2017)",
+  labs(title = "U.S. Horror Film Ratings by Budget (2012-2017)",
        caption = 
        "\nSource: IMDB (2017)
        Design: Jenna DeVries | Twitter: @jennaldevries
@@ -62,7 +62,7 @@ they are above average surprisingly often.",
            fill = "grey", 
            alpha = .1) +
   
-  annotate("text", 4.55, 11.5, label = "Horror films with higher budgets are more likely to 
+  annotate("text", 4.15, 11.5, label = "Horror films with higher budgets are more likely to 
 receive higher ratings. With a budget of over $5m, 
 it is more common that a film will receive above 
 average reviews (e.g. World War Z, The Conjuring).
@@ -73,8 +73,8 @@ Boo! A Madea Halloween (along with it's sequel).",
            hjust = 0) +
   
   annotate("rect", 
-           xmin = 4.5, 
-           xmax = 6.4, 
+           xmin = 4.1, 
+           xmax = 6, 
            ymin = 10, 
            ymax = 13, 
            fill = "grey", 
