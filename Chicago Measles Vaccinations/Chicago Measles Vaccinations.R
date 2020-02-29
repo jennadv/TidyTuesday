@@ -125,5 +125,7 @@ Created for #TidyTuesday")
  
   
 
-ggsave("Chicago MMR.png")
-  
+ggsave("Chicago MMR.png", height = 10, width = 9.95, units = "in")
+
+
+
