@@ -55,7 +55,7 @@ theme_jdv_dark_void <- function(base_size = 11,
              base_family = base_family) %+replace%
     theme(panel.grid.major = element_blank(), 
           panel.grid.minor = element_blank(),
-          plot.background = element_rect(fill = "#1c1c1c"),  #Was grey20 
+          plot.background = element_rect(fill = "#1c1c1c"),  
           plot.title = element_text(size = 19, 
                                     face = 'bold', 
                                     hjust = 0, 
@@ -125,5 +125,5 @@ Created for #TidyTuesday")
  
   
 
-ggsave("Chicago MMR.png", height = 11, width = 10, units = "in")
+ggsave("Chicago MMR.png")
   
